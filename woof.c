@@ -2,9 +2,13 @@
 
 int main(void)
 {
-    int woof;
+    int woof = 0;
     int input;
-    for (woof = 0; woof < 5; woof++)
+    printf("How many times do you want the dog to bark? ");
+    scanf("%d", &input);
+    for (input; input > woof; woof++)
         ;
-    printf("woof\n");
+    {
+        printf("woof\n");
+    }
 }
